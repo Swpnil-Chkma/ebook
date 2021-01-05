@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Serif Pro', serif;
+    background-color:#000;
+    color: rgb(196, 196, 196);
+}
+.day{
+    background-color: #fff;
+    color: #000;
+}
+#toggle{
+    transition: 0.2s linear;
+}
+.thumbnail{
+    overflow: hidden;
+    height: 150px;
+    max-height: 150px;
+    margin-top: 10px;
+    border: 2px solid silver;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.active{
+    background: darkcyan;
+    color: #fff;
+}
+.mid{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.7em;
+}
+li p{
+    padding: 3%;
+    margin-top: 90%;
+}
+p:first-child{
+    margin-top: 2%;
+}
+.thumbnail:hover{
+    color: #fff;
+    background: darkcyan;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+table{
+    padding: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.main-viewer{
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 2;
+    padding: 10px 5%;
+    text-align: justify;
+}
+
+li span{
+    text-align: center;
+}
+.navDiv{
+    transition: .6s ease;
+    background-color: #000;
+}
+.scrolled{
+    transition: .6s ease;
+}
+.navbar-brand a{
+    color: rgb(87, 175, 175);
+    text-decoration: none;
+}
+.nav-link{
+    transition: .6s ease;
+    color: #fff;
+}
+.nav-link:hover{
+    color: moccasin;
+}
+.nav-item{
+    margin: 1%;
+}
+.navDiv .container{
+    transition: 1s;
+}
+.form-switch{
+    margin: 20px;
+    cursor: pointer;
+}
